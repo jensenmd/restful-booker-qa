@@ -4,7 +4,7 @@ const validGuest = {
   firstName: 'Jane',
   lastName: 'Tester',
   email: 'jane.tester@example.com',
-  phone: '5551234567',
+  phone: '55512345678',
 };
 
 module.exports = { validGuest };
