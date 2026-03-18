@@ -1,0 +1,14 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Playwright
+playwright/test-results/
+playwright/playwright-report/
+
+# Newman reports (generated, not committed)
+reports/
+
+# OS
+.DS_Store
+Thumbs.db
