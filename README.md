@@ -2,7 +2,9 @@
 
 A layered QA portfolio project targeting the Restful-Booker demo application — a hotel booking API and web UI built specifically for QA practice. This project demonstrates a full-stack test strategy across API and UI layers, with both suites running automatically in CI on every push.
 
-![qa-automation-showcase](restful-booker-qa-preview%20(1).png)
+![restful-booker-qa](restful-booker-qa-preview%20(1).png)
+
+![CI Status](https://github.com/jensenmd/restful-booker-qa/actions/workflows/ci.yml/badge.svg)
 
 Built by **Michael D. Jensen** — Senior QA Engineer with 15+ years of enterprise testing experience, currently re-entering the field with a focus on API testing, automation, and CI/CD-integrated quality practices.
 
