@@ -2,13 +2,13 @@
 
 A layered QA portfolio project targeting the Restful-Booker demo application — a hotel booking API and web UI built specifically for QA practice. This project demonstrates a full-stack test strategy across API and UI layers, with both suites running automatically in CI on every push.
 
-![restful-booker-qa](restful-booker-qa-preview%20(1).png)
-
 ![CI Status](https://github.com/jensenmd/restful-booker-qa/actions/workflows/ci.yml/badge.svg)
+
+![restful-booker-qa](restful-booker-qa-preview%20(1).png)
 
 Built by **Michael D. Jensen** — Senior QA Engineer with 15+ years of enterprise testing experience, currently re-entering the field with a focus on API testing, automation, and CI/CD-integrated quality practices.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/michael-jensen-751b59294/) | 📧 jensen.md@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/michaeljensen-qa/) | 📧 jensen.md@gmail.com
 
 ---
 
@@ -148,6 +148,7 @@ This project is part of a three-project QA portfolio demonstrating complementary
 | [pharmacy-spend-etl-qa](https://github.com/jensenmd/pharmacy-spend-etl-qa) | ETL pipeline validation, SQL-driven data integrity testing | Python / pytest / SQLite / pandas |
 | [qa-automation-showcase](https://github.com/jensenmd/qa-automation-showcase) | REST API testing, data validation, CI/CD integration | Python / pytest / Postman / GitHub Actions |
 | **restful-booker-qa** (this repo) | Full-stack layered testing — API + UI automation | Postman / Newman / Playwright / GitHub Actions |
+| [ai-qa-framework](https://github.com/jensenmd/ai-qa-framework) | AI-assisted test generation, human-in-the-loop validation | Python / Claude API / pytest / GitHub Actions |
 
 Together they demonstrate backend data validation, API testing, and UI automation — the core layers of a modern QA engineering practice.
 
@@ -160,4 +161,4 @@ Together they demonstrate backend data validation, API testing, and UI automatio
 
 Currently re-entering the field with active focus on Python/pytest automation, Playwright UI testing, and CI/CD-integrated quality practices.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/michael-jensen-751b59294/) | 🐙 [GitHub Profile](https://github.com/jensenmd) | 📧 jensen.md@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/michaeljensen-qa/) | 🐙 [GitHub Profile](https://github.com/jensenmd) | 📧 jensen.md@gmail.com
