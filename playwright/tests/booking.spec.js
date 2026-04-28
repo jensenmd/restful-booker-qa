@@ -42,6 +42,7 @@ test.describe('Booking Flow', () => {
     await booking.submitBooking();
 
     // Assert confirmation
+    await booking.waitForConfirmation();
     await expect(booking.confirmationHeading).toBeVisible({ timeout: 10000 });
   });
 

@@ -23,7 +23,6 @@ class BookingPage {
   }
 
   async selectCalendarDates() {
-    // React Big Calendar renders date numbers as buttons
     const today = new Date();
     const future = new Date(today);
     future.setDate(today.getDate() + 4);
@@ -37,7 +36,6 @@ class BookingPage {
 
   async openBookingForm() {
     await this.reserveNowButton.click();
-    // Wait for form fields to appear
     await this.firstNameInput.waitFor({ state: 'visible', timeout: 10000 });
     await this.firstNameInput.scrollIntoViewIfNeeded();
   }
@@ -50,9 +48,12 @@ class BookingPage {
   }
 
   async submitBooking() {
-    // Scroll Reserve Now button into view before clicking
     await this.reserveNowButton.scrollIntoViewIfNeeded();
     await this.reserveNowButton.click();
+  }
+
+  async waitForConfirmation() {
+    await this.page.waitForLoadState('networkidle');
   }
 
   async isConfirmationVisible() {
