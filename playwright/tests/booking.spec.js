@@ -63,8 +63,11 @@ test.describe('Booking Flow', () => {
     // Submit without filling in any fields
     await booking.submitBooking();
 
+    // Validation error container should appear
+    await expect(page.locator('.alert.alert-danger')).toBeVisible({ timeout: 5000 });
+
     // Confirmation should NOT appear
-    await expect(booking.confirmationHeading).not.toBeVisible({ timeout: 3000 });
+    await expect(booking.confirmationHeading).not.toBeVisible();
   });
 
 });
