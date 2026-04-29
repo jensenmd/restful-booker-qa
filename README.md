@@ -4,7 +4,7 @@ A layered QA portfolio project targeting the Restful-Booker demo application —
 
 ![CI Status](https://github.com/jensenmd/restful-booker-qa/actions/workflows/ci.yml/badge.svg)
 
-![restful-booker-qa](restful-booker-qa-preview%20(1).png)
+![restful-booker-qa](restful-booker-qa-previewv2.png)
 
 Built by **Michael D. Jensen** — Senior QA Engineer with 15+ years of enterprise testing experience, currently re-entering the field with a focus on API testing, automation, and CI/CD-integrated quality practices.
 
