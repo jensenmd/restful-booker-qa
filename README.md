@@ -6,7 +6,7 @@ A layered QA portfolio project targeting the Restful-Booker demo application —
 
 ![restful-booker-qa](restful-booker-qa-previewv2.png)
 
-Built by **Michael D. Jensen** — Senior QA Engineer with 15+ years of enterprise testing experience, currently re-entering the field with a focus on API testing, automation, and CI/CD-integrated quality practices.
+Built by **Michael D. Jensen** — Senior QA Engineer with 15+ years of enterprise testing experience, specializing in API testing, automation, and CI/CD-integrated quality practices.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/michaeljensen-qa/) | 📧 jensen.md@gmail.com
 
@@ -160,6 +160,6 @@ Together they demonstrate data validation, API testing, UI automation, AI-assist
 **Michael D. Jensen** — Senior QA Engineer
 15+ years of enterprise software testing experience across healthcare IT, financial systems, telecommunications, and cybersecurity. Deep background in REST API validation, ETL pipeline testing, SQL-based data integrity verification, and full-stack manual testing in Agile environments.
 
-Currently re-entering the field with active focus on Python/pytest automation, Playwright UI testing, and CI/CD-integrated quality practices.
+Current hands-on work includes Python/pytest automation, Playwright UI testing, and CI/CD-integrated quality practices.
 
 🔗 [LinkedIn](https://www.linkedin.com/in/michaeljensen-qa/) | 🐙 [GitHub Profile](https://github.com/jensenmd) | 📧 jensen.md@gmail.com
