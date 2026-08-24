@@ -141,19 +141,20 @@ npx playwright show-report
 
 ## Relationship to Other Portfolio Projects
 
-This project is part of a three-project QA portfolio demonstrating complementary skills:
+This project is part of a six-project QA portfolio demonstrating complementary quality engineering skills:
 
 | Project | Focus | Stack |
-|---|---|---|
+| --- | --- | --- |
 | [pharmacy-spend-etl-qa](https://github.com/jensenmd/pharmacy-spend-etl-qa) | ETL pipeline validation, SQL-driven data integrity testing | Python / pytest / SQLite / pandas |
 | [qa-automation-showcase](https://github.com/jensenmd/qa-automation-showcase) | REST API testing, data validation, CI/CD integration | Python / pytest / Postman / GitHub Actions |
 | **restful-booker-qa** (this repo) | Full-stack layered testing — API + UI automation | Postman / Newman / Playwright / GitHub Actions |
 | [ai-qa-framework](https://github.com/jensenmd/ai-qa-framework) | AI-assisted test generation, human-in-the-loop validation | Python / Claude API / pytest / GitHub Actions |
+| [claude-code-qa-sessions](https://github.com/jensenmd/claude-code-qa-sessions) | Agentic QA analysis with human-reviewed recommendations | Claude Code / GitHub / QA analysis |
+| [mapmyrun-quality-investigation](https://github.com/jensenmd/mapmyrun-quality-investigation) | Black-box mobile/GPS QA investigation — field testing and evidence-bounded analysis | iPhone / Apple Watch / MapMyRun / field evidence |
 
-Together they demonstrate backend data validation, API testing, and UI automation — the core layers of a modern QA engineering practice.
+Together they demonstrate data validation, API testing, UI automation, AI-assisted QA workflows, exploratory investigation, and evidence-driven quality engineering across multiple system layers.
 
 ---
-
 ## Author
 
 **Michael D. Jensen** — Senior QA Engineer
