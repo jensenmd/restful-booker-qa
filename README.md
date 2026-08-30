@@ -4,7 +4,7 @@ A layered QA portfolio project targeting the Restful-Booker demo application —
 
 ![CI Status](https://github.com/jensenmd/restful-booker-qa/actions/workflows/ci.yml/badge.svg)
 
-![restful-booker-qa](restful-booker-qa-previewv2.png)
+![restful-booker-qa portfolio project card](restful-booker-qa-project-card.png)
 
 Built by **Michael D. Jensen** — Senior QA Engineer with 15+ years of enterprise testing experience, specializing in API testing, automation, and CI/CD-integrated quality practices.
 
@@ -147,7 +147,7 @@ This project is part of a broader QA portfolio demonstrating complementary quali
 |---|---|
 | [android-appium-wdio-poc](https://github.com/jensenmd/android-appium-wdio-poc) | Native Android UI automation proof of concept using Appium, WebdriverIO, TypeScript, and UiAutomator2 |
 | [mapmyrun-quality-investigation](https://github.com/jensenmd/mapmyrun-quality-investigation) | Black-box mobile and GPS quality investigation using field evidence and bounded conclusions |
-| [restful-booker-qa](https://github.com/jensenmd/restful-booker-qa) | Layered API and UI automation using Postman, Newman, Playwright, and GitHub Actions |
+| [restful-booker-qa](https://github.com/jensenmd/restful-booker-qa) **(this repository)** | Layered API and UI automation using Postman, Newman, Playwright, and GitHub Actions |
 | [pharmacy-spend-etl-qa](https://github.com/jensenmd/pharmacy-spend-etl-qa) | ETL pipeline and SQL-driven data-integrity validation modeled after healthcare analytics work |
 | [qa-automation-showcase](https://github.com/jensenmd/qa-automation-showcase) | REST API testing, data validation, and CI/CD-integrated automation |
 | [ai-qa-framework](https://github.com/jensenmd/ai-qa-framework) | Human-reviewed AI-assisted test generation with structured cases and pytest execution |
