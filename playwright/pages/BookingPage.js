@@ -7,6 +7,7 @@ class BookingPage {
 
     // Calendar
     this.calendar = page.locator('.rbc-calendar');
+    this.todayButton = this.calendar.getByRole('button', { name: 'Today', exact: true });
 
     // Reserve Now button (also submits the form)
     this.reserveNowButton = page.getByRole('button', { name: 'Reserve Now' });
@@ -22,16 +23,27 @@ class BookingPage {
     this.returnHomeLink = page.getByRole('link', { name: 'Return home' });
   }
 
-  async selectCalendarDates() {
-    const today = new Date();
-    const future = new Date(today);
-    future.setDate(today.getDate() + 4);
+  async selectCalendarDates(startDate = new Date()) {
+    const future = new Date(startDate);
+    future.setDate(startDate.getDate() + 4);
 
-    const todayNum = String(today.getDate());
-    const futureNum = String(future.getDate());
+    const startDay = String(startDate.getDate()).padStart(2, '0');
+    const futureDay = String(future.getDate()).padStart(2, '0');
 
-    await this.page.getByRole('button', { name: todayNum, exact: true }).first().click();
-    await this.page.getByRole('button', { name: futureNum, exact: true }).first().click();
+    // Reset the calendar view before selecting dates. The date buttons use
+    // zero-padded accessible names (for example, "03", not "3").
+    await this.todayButton.click();
+    const currentMonthDays = this.calendar.locator('.rbc-date-cell:not(.rbc-off-range)');
+    const adjacentMonthDays = this.calendar.locator('.rbc-date-cell.rbc-off-range');
+
+    await currentMonthDays.getByRole('button', { name: startDay, exact: true }).click();
+
+    const crossesMonth =
+      future.getMonth() !== startDate.getMonth() ||
+      future.getFullYear() !== startDate.getFullYear();
+
+    const futureMonthDays = crossesMonth ? adjacentMonthDays : currentMonthDays;
+    await futureMonthDays.getByRole('button', { name: futureDay, exact: true }).click();
   }
 
   async openBookingForm() {

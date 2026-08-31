@@ -16,10 +16,6 @@ test.describe('Booking Flow', () => {
   });
 
   test('should complete a booking - happy path', async ({ page }) => {
-    // NOTE: This test is known-flaky due to intermittent client-side crashes on
-    // automationintesting.online — a shared free demo environment. The test logic
-    // and selectors are correct; failures are environmental, not code defects.
-    // Verified passing in isolation when the site is stable.
     await page.goto('/');
     const booking = new BookingPage(page);
 
